@@ -2,6 +2,8 @@
 
 Project Laravel menggunakan **Blade Template**, **Laravel Authentication**, dan integrasi template **AdminSB2** untuk membuat dashboard admin modern dan responsive.
 
+---
+
 ## ✨ Fitur Utama
 
 - ✅ Laravel Blade Template
@@ -18,7 +20,7 @@ Project Laravel menggunakan **Blade Template**, **Laravel Authentication**, dan 
 - PHP 8+
 - Laravel 12
 - Blade Template Engine
-- Bootstrap
+- Bootstrap 5
 - AdminSB2
 - Vite
 
@@ -35,7 +37,7 @@ git clone https://github.com/Roouuff/webberita.git
 ### 2. Masuk Folder Project
 
 ```bash
-cd NAMA-REPOSITORY
+cd webberita
 ```
 
 ### 3. Install Dependency
@@ -51,6 +53,12 @@ npm install
 cp .env.example .env
 ```
 
+> Untuk pengguna Windows CMD bisa menggunakan:
+
+```bash
+copy .env.example .env
+```
+
 ### 5. Generate Application Key
 
 ```bash
@@ -62,6 +70,9 @@ php artisan key:generate
 Edit file `.env`
 
 ```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
 DB_DATABASE=nama_database
 DB_USERNAME=root
 DB_PASSWORD=
@@ -80,7 +91,7 @@ php artisan serve
 npm run dev
 ```
 
-Akses project di:
+Akses project di browser:
 
 ```txt
 http://127.0.0.1:8000
@@ -90,16 +101,17 @@ http://127.0.0.1:8000
 
 ## 🔐 Authentication Laravel
 
-Fitur auth yang tersedia:
+Fitur authentication yang tersedia:
 
 - Login
 - Register
 - Logout
 - Session Authentication
 
-Referensi implementasi auth Laravel:
+Referensi implementasi authentication Laravel:
 
-urlTutorial Laravel Authhttps://sites.google.com/unhasy.ac.id/edwinhap/laravel-auth/praktikum-auth-laravel
+- Tutorial Laravel Auth  
+  https://sites.google.com/unhasy.ac.id/edwinhap/laravel-auth/praktikum-auth-laravel
 
 ---
 
@@ -113,9 +125,9 @@ Template dashboard menggunakan:
 - Responsive Layout
 - Bootstrap Components
 
-Official Template:
+Official Website AdminSB2:
 
-urlAdminSB2 Official Websitehttps://startbootstrap.com/theme/sb-admin-2
+- https://startbootstrap.com/theme/sb-admin-2
 
 ---
 
@@ -137,6 +149,8 @@ public/
 ---
 
 ## 📸 Tampilan
+
+Fitur halaman yang tersedia:
 
 - Login Page
 - Register Page
@@ -168,3 +182,9 @@ git push -u origin main
 ## 👨‍💻 Developer
 
 Project dibuat menggunakan Laravel Blade dan AdminSB2 untuk kebutuhan pembelajaran dan pengembangan aplikasi web admin dashboard.
+
+---
+
+## 📌 Repository
+
+https://github.com/Roouuff/webberita
