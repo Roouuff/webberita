@@ -185,6 +185,5 @@ Project dibuat menggunakan Laravel Blade dan AdminSB2 untuk kebutuhan pembelajar
 
 ---
 
-## 📌 Repository
-
-https://github.com/Roouuff/webberita
+📝 Lisensi
+Proyek ini dibuat untuk keperluan praktikum akademik — Pemrograman Web Berbasis Framework, Tahun Ajaran 2025/2026.
